@@ -1,0 +1,24 @@
+{
+  "baseUrl": "/",
+  "siteUrl": "https://blog.ericzhao3366.work/",
+  "profile": {
+    "avatar":"https://q1.qlogo.cn/g?b=qq&nk=3177261635&s=640",
+    "name": "EricZhao",
+    "tagline": "一个学生",
+    "bio": "不知道这里想要写点啥",
+    "location": "杭州・中國",
+    "links": [
+      { "label": "GitHub", "href": "https://github.com/ERIC-ZHAO-3366" },
+      { "label": "邮箱", "href": "mailto:ericzhao3366@dingtalk.com" }
+    ]
+  },
+  "services": {
+    "shortLink": {
+      "enabled": true
+    }
+  },
+  "theme": {
+    "customBackground": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "hideTip": "你知道的太多了"
+  }
+}
