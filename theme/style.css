@@ -392,13 +392,21 @@ a:hover { text-decoration: underline; }
   text-decoration: none;
 }
 .pagination a.current {
-  background: var(--accent);
-  color: var(--paper);
-  border-color: var(--accent);
+  background: #87CEEB; /* 天蓝色 */
+  color: #ffffff;
+  border-color: #5bb0e0;
 }
 .pagination span.disabled {
   opacity: 0.45;
   cursor: default;
+}
+
+/* Dark theme: ensure pagination (prev/next) text is readable */
+[data-theme="dark"] .pagination a,
+[data-theme="dark"] .pagination span {
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--ink);
+  border-color: var(--border);
 }
 
 .pagination .ellipsis {
